@@ -1,10 +1,5 @@
 import { useState } from "react";
 import "./Header.css";
-import About from "./About";
-import Contact from "./Contact";
-import Skills from "./Skills";
-import Projects from "./Projects";
-import Education from "./Education";
 
 function Header() {
   const [active, setActive] = useState("#");
