@@ -11,7 +11,7 @@ function App() {
     <div className="container">
       <Header />
       <section id="about">
-        <h2>About Me</h2>
+        <h2>Landing Section</h2>
         <About />
       </section>
 

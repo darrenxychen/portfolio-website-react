@@ -17,13 +17,7 @@ function Header() {
       >
         About
       </a>
-      <a
-        href="#contact"
-        className={active === "#contact" ? "active" : ""}
-        onClick={() => handleClick("#contact")}
-      >
-        Contact
-      </a>
+      
       <a
         href="#skills"
         className={active === "#skills" ? "active" : ""}
@@ -44,6 +38,13 @@ function Header() {
         onClick={() => handleClick("#education")}
       >
         Education
+      </a>
+      <a
+        href="#contact"
+        className={active === "#contact" ? "active" : ""}
+        onClick={() => handleClick("#contact")}
+      >
+        Contact
       </a>
     </nav>
   );

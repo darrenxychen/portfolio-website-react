@@ -1,0 +1,32 @@
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+  }
+  
+  .about-content {
+    flex: 1;
+    padding-right: 40px;
+  }
+  
+  .about-content h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p {
+    margin-bottom: 15px;
+  }
+  
+  .about-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
