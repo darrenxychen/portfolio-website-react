@@ -12,6 +12,7 @@
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    text-decoration: none;
   }
   
   .project:hover {
@@ -30,11 +31,11 @@
   }
   
   .project-links {
-    display: flex;
-    justify-content: space-between;
+    text-align: center;
   }
   
   .project-links a {
+    display: inline-block;
     text-decoration: none;
     color: #FFA45e;
     padding: 8px 16px;
@@ -47,7 +48,7 @@
     background-color: #FFA45e;
     color: #ec4176;
   }
-
+  
   @media screen and (max-width: 768px) {
     .projects-container {
       flex-direction: column;
