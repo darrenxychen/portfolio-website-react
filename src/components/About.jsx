@@ -15,6 +15,14 @@ function About() {
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ipsum quis officia cum unde aperiam itaque? Quos tempore consectetur aspernatur quisquam, vero ut vel laudantium dolores commodi tempora reiciendis? Delectus.
         </p>
+        <div className="social-links">
+          <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+            LinkedIn
+          </a>
+          <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
+            GitHub
+          </a>
+        </div>
       </div>
       <div className="about-image">
         <img src="" alt="Picture Filler" />
