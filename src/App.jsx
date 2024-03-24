@@ -25,11 +25,6 @@ function App() {
         <Projects />
       </section>
 
-      <section id="experience">
-        <h2>Experience</h2>
-        <Experience />
-      </section>
-
       <section id="education">
         <h2>Education</h2>
         <Education />
