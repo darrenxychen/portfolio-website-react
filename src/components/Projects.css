@@ -1,0 +1,60 @@
+.projects-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .project {
+    flex: 1;
+    background-color: #543884;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .project:hover {
+    transform: scale(1.05);
+  }
+  
+  .project h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #FFA45e;
+  }
+  
+  .project p {
+    margin-bottom: 15px;
+    color: #ec4176;
+  }
+  
+  .project-links {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .project-links a {
+    text-decoration: none;
+    color: #FFA45e;
+    padding: 8px 16px;
+    border: 2px solid #FFA45e;
+    border-radius: 40px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .project-links a:hover {
+    background-color: #FFA45e;
+    color: #ec4176;
+  }
+
+  @media screen and (max-width: 768px) {
+    .projects-container {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .project {
+      flex: auto;
+    }
+  }
