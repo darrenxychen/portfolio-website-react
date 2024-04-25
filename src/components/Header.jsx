@@ -4,13 +4,24 @@ import "./Header.css";
 function Header() {
   const [active, setActive] = useState("#");
 
+
   const handleClick = (section) => {
     setActive(section);
+    const element = document.querySelector(section);
+
+    element.scrollIntoView({ behavior: "smooth" });
+
   };
 
   return (
     <nav>
-      <div className="logo">DC</div>
+      <a href="#"
+        className={active === "#" ? "active" : ""}
+        onClick={() => handleClick("#")}
+      >
+        <div className="logo">DC</div>
+      </a>
+      
       <div className="nav-links">
         <a
           href="#about"
