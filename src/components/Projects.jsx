@@ -4,11 +4,11 @@ import './Projects.css';
 function Projects() {
   return (
     <div className="projects-container">
-      <a href="https://www.project1.com" target="_blank" rel="noopener noreferrer" className="project">
-        <h3>Project 1</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <a href="https://fullyhacks-test.onrender.com/" target="_blank" rel="noopener noreferrer" className="project">
+        <h3>WikiGuess</h3>
+        <p>A full stack web application game where players must guess which article is not written by AI!</p>
         <div className="project-links">
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer">Code</a>
+          <a href="https://github.com/ADHFMZ7/WikiGuess" target="_blank" rel="noopener noreferrer">Code</a>
         </div>
       </a>
 
