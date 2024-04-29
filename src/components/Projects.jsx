@@ -12,11 +12,11 @@ function Projects() {
         </div>
       </a>
 
-      <a href="https://www.project2.com" target="_blank" rel="noopener noreferrer" className="project">
-        <h3>Project 2</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <a href="https://memorygame-d.vercel.app/" target="_blank" rel="noopener noreferrer" className="project">
+        <h3>Memory Game</h3>
+        <p>A full stack web game where the player must flip a full set of matching cards to win!</p>
         <div className="project-links">
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer">Code</a>
+          <a href="https://github.com/darrenxychen/memorygame" target="_blank" rel="noopener noreferrer">Code</a>
         </div>
       </a>
 
