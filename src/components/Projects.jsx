@@ -21,10 +21,10 @@ function Projects() {
       </a>
 
       <a href="https://www.project3.com" target="_blank" rel="noopener noreferrer" className="project">
-        <h3>Project 3</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <h3>OOTD</h3>
+        <p>A fullstack social media app in React Native focused on fashion and community!</p>
         <div className="project-links">
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer">Code</a>
+          <a href="https://github.com/jainharshul/OOTD" target="_blank" rel="noopener noreferrer">Code</a>
         </div>
       </a>
     </div>
