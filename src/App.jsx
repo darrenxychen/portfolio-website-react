@@ -12,7 +12,6 @@ function App() {
     <div className="container">
       <Header />
       <section id="about">
-        <h2>About Me</h2>
         <About />
       </section>
 

@@ -5,7 +5,7 @@ function About() {
   return (
     <div className="about-container">
       <div className="about-content">
-        <h3>Hi my name is Darren.</h3>
+        <h2>Hi my name is Darren.</h2>
         <p>
           I am a junior majoring Computer Science at California State University of Fullerton with an interest in web development and algorithms.
         </p>
