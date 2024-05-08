@@ -31,19 +31,20 @@ function Header() {
           About
         </a>
         <a
-          href="#skills"
-          className={active === "#skills" ? "active" : ""}
-          onClick={() => handleClick("#skills")}
-        >
-          Skills
-        </a>
-        <a
           href="#projects"
           className={active === "#projects" ? "active" : ""}
           onClick={() => handleClick("#projects")}
         >
           Projects
         </a>
+        <a
+          href="#skills"
+          className={active === "#skills" ? "active" : ""}
+          onClick={() => handleClick("#skills")}
+        >
+          Skills
+        </a>
+        
         <a
           href="#education"
           className={active === "#education" ? "active" : ""}
