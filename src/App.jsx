@@ -12,18 +12,20 @@ function App() {
     <div className="container">
       <Header />
       <section id="about">
-        <h2>Landing Section</h2>
+        <h2>About Me</h2>
         <About />
+      </section>
+
+      
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <Projects />
       </section>
 
       <section id="skills">
         <h2>Skills</h2>
         <Skills />
-      </section>
-
-      <section id="projects">
-        <h2>Projects</h2>
-        <Projects />
       </section>
 
       <section id="education">
