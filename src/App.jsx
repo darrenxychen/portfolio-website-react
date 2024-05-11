@@ -22,10 +22,10 @@ function App() {
         <Projects />
       </section>
 
-      <section id="skills">
+      {/* <section id="skills">
         <h2>Skills</h2>
         <Skills />
-      </section>
+      </section> */}
 
       <section id="education">
         <h2>Education</h2>
