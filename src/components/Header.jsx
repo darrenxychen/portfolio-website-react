@@ -37,13 +37,13 @@ function Header() {
         >
           Projects
         </a>
-        <a
+        {/* <a
           href="#skills"
           className={active === "#skills" ? "active" : ""}
           onClick={() => handleClick("#skills")}
         >
           Skills
-        </a>
+        </a> */}
         
         <a
           href="#education"
