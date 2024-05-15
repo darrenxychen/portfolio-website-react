@@ -25,6 +25,7 @@ function About() {
         <p>
           I am a junior majoring Computer Science at California State University of Fullerton with an interest in web development and algorithms.
         </p>
+        <p>I enjoy using ReactJS, ReactNative, Python, and C++!</p>
         
         <div className="social-links">
           <a href="https://www.linkedin.com/in/darren-xy-chen/" target="_blank" rel="noopener noreferrer">
