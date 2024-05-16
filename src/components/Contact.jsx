@@ -31,7 +31,7 @@ const Contact = () => {
     <section className="contact-section">
       <div className="contact-content">
         <h3>Get in Touch</h3>
-        <p>Download my resume below or contact me to my right!</p>
+        <p>Whether you have a question or just want to get in touch, use the form to send me a message!</p>
       </div>
       <div className="contact-form">
         <form ref={formRef} onSubmit={sendEmail}>
