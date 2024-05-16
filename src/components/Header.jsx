@@ -1,65 +1,82 @@
 import { useState } from "react";
+import { Link } from "react-scroll";
 import "./Header.css";
 
 function Header() {
   const [active, setActive] = useState("#");
 
-
-  const handleClick = (section) => {
-    setActive(section);
-    const element = document.querySelector(section);
-
-    element.scrollIntoView({ behavior: "smooth" });
-
+  const handleSetActive = (to) => {
+    setActive(to);
   };
 
   return (
     <nav>
-      <a href="#"
-        className={active === "#" ? "active" : ""}
-        onClick={() => handleClick("#")}
-      >
+      <a href="#" className={active === "#" ? "active" : ""}>
         <div className="logo">DC</div>
       </a>
-      
+
       <div className="nav-links">
-        <a
-          href="#about"
-          className={active === "#about" ? "active" : ""}
-          onClick={() => handleClick("#about")}
+        <Link
+          activeClass="active"
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={-50}
+          duration={500}
+          onSetActive={handleSetActive}
         >
           About
-        </a>
-        <a
-          href="#projects"
-          className={active === "#projects" ? "active" : ""}
-          onClick={() => handleClick("#projects")}
+        </Link>
+
+        <Link
+          activeClass="active"
+          to="projects"
+          spy={true}
+          smooth={true}
+          offset={-50}
+          duration={500}
+          onSetActive={handleSetActive}
         >
           Projects
-        </a>
-        {/* <a
-          href="#skills"
-          className={active === "#skills" ? "active" : ""}
-          onClick={() => handleClick("#skills")}
-        >
-          Skills
-        </a> */}
-        
-        <a
-          href="#education"
-          className={active === "#education" ? "active" : ""}
-          onClick={() => handleClick("#education")}
+        </Link>
+
+        <Link
+          activeClass="active"
+          to="education"
+          spy={true}
+          smooth={true}
+          offset={-50}
+          duration={500}
+          onSetActive={handleSetActive}
         >
           Education
-        </a>
-        <a
-          href="#contact"
-          className={active === "#contact" ? "active" : ""}
-          onClick={() => handleClick("#contact")}
+        </Link>
+
+        <Link
+          activeClass="active"
+          to="achievements"
+          spy={true}
+          smooth={true}
+          offset={-50}
+          duration={500}
+          onSetActive={handleSetActive}
+        >
+          Achievements
+        </Link>
+
+        <Link
+          activeClass="active"
+          to="contact"
+          spy={true}
+          smooth={true}
+          offset={-50}
+          duration={500}
+          onSetActive={handleSetActive}
         >
           Contact
-        </a>
+        </Link>
       </div>
+
       <a href="#" className="resume-btn" download>
         Resume
       </a>
