@@ -22,7 +22,7 @@ function Projects() {
         className={`project ${hoveredProject === 'WikiGuess' ? 'hovered' : ''}`}
         onMouseEnter={() => handleMouseEnter('WikiGuess')}
         onMouseLeave={handleMouseLeave}
-        style={{ backgroundImage: 'url(../../public/wikiguess.png)' }}
+        style={{ backgroundImage: 'url(public/wikiguess.png)' }}
       >
         <div className="project-details">
           <h3>WikiGuess</h3>
@@ -40,7 +40,8 @@ function Projects() {
         className={`project ${hoveredProject === 'Memory Game' ? 'hovered' : ''}`}
         onMouseEnter={() => handleMouseEnter('Memory Game')}
         onMouseLeave={handleMouseLeave}
-        style={{ backgroundImage: 'url(../../public/memorygame.png)' }}
+        
+        style={{ backgroundImage: 'url(public/memorygame.png)' }}
       >
         <div className="project-details">
           <h3>Memory Game</h3>

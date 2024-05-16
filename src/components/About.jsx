@@ -31,11 +31,11 @@ function About() {
           <a href="https://github.com/darrenxychen" target="_blank" rel="noopener noreferrer" className="github-link">
             GitHub
           </a>
-          <a href="#" className="resume-link">Resume</a>
+          <a href="public/Darren_Chen_Resume.pdf" download className="resume-link">Resume</a>
         </div>
       </div>
       <div className="about-image">
-        <img src="../../public/professionalpic.jpg" alt="Picture Filler" />
+        <img src="public/professionalpic.jpg" alt="Picture Filler" />
       </div>
     </div>
   );

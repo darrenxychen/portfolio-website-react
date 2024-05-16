@@ -32,9 +32,6 @@ const Contact = () => {
       <div className="contact-content">
         <h3>Get in Touch</h3>
         <p>Download my resume below or contact me to my right!</p>
-        <div className="resume-download">
-          <a href="#">Resume</a>
-        </div>
       </div>
       <div className="contact-form">
         <form ref={formRef} onSubmit={sendEmail}>
