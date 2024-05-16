@@ -31,7 +31,7 @@ const Contact = () => {
     <section className="contact-section">
       <div className="contact-content">
         <h3>Get in Touch</h3>
-        <p>Download my resume below or contant me to my right!</p>
+        <p>Download my resume below or contact me to my right!</p>
         <div className="resume-download">
           <a href="#">Resume</a>
         </div>
