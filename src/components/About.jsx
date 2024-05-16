@@ -35,7 +35,7 @@ function About() {
         </div>
       </div>
       <div className="about-image">
-        <img src="public/professionalpic.jpg" alt="Picture Filler" />
+        <img src="public/static/images/professionalpic.jpg" alt="Picture Filler" />
       </div>
     </div>
   );
