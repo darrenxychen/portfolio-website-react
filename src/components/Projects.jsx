@@ -59,7 +59,7 @@ function Projects() {
         className={`project ${hoveredProject === 'OOTD' ? 'hovered' : ''}`}
         onMouseEnter={() => handleMouseEnter('OOTD')}
         onMouseLeave={handleMouseLeave}
-        style={{ backgroundImage: 'url(path/to/ootd-image.jpg)' }}
+        style={{ backgroundImage: 'url(static/images/ootd.png)' }}
       >
         <div className="project-details">
           <h3>OOTD</h3>
