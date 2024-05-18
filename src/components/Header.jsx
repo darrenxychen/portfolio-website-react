@@ -58,7 +58,7 @@ function Header() {
           spy={true}
           smooth={true}
           offset={-50}
-          duration={500}
+          duration={400}
           onSetActive={handleSetActive}
         >
           Achievements
@@ -70,7 +70,7 @@ function Header() {
           spy={true}
           smooth={true}
           offset={-50}
-          duration={500}
+          duration={300}
           onSetActive={handleSetActive}
         >
           Contact
