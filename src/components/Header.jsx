@@ -77,7 +77,7 @@ function Header() {
         </Link>
       </div>
 
-      <a href="public/Darren_Chen_Resume.pdf" className="resume-btn" download>Resume</a>
+      <a href="./Darren_Chen_Resume.pdf" className="resume-btn" download>Resume</a>
     </nav>
   );
 }
