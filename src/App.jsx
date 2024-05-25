@@ -7,6 +7,7 @@ import Projects from "./components/Projects";
 import Education from "./components/Education";
 import Achievements from "./components/Achievements";
 
+
 function App() {
   return (
     <div className="container">
