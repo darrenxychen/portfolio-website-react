@@ -17,7 +17,7 @@ function Achievements() {
           <p>Won first place in FullyHacks for developing WikiGuess.</p>
           <p>(Link is slow)</p>
           <div className="achievement-details">
-            <h4>April 2023</h4>
+            <h3>April 2023</h3>
           </div>
         </div>
       </a>
