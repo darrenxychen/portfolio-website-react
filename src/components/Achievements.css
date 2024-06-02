@@ -13,6 +13,13 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
   text-decoration: none;
+  background-size: cover; /* Ensure the background image covers the entire area */
+  background-repeat: no-repeat; /* Prevent tiling of the background image */
+  background-position: center center; /* Center the background image */
+  position: relative;
+  overflow: hidden;
+  height: 300px; /* Set a fixed height for the box */
+  width: 400px; /* Set a fixed width for the box */
 }
 
 .achievement:hover {
@@ -52,4 +59,27 @@
 a {
     text-decoration: none;
     color: #FFA45e;
+}
+
+.achievement-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(84, 56, 132, 0.9);
+  padding: 20px;
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.achievement:hover .achievement-content {
+  opacity: 1;
 }
