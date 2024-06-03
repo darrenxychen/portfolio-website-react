@@ -9,7 +9,7 @@ function Achievements() {
         target="_blank"
         rel="noopener noreferrer"
         className="achievement"
-        style={{ backgroundImage: 'url(static/images/wikiguess.png)' }}
+        style={{ backgroundImage: 'url(static/images/wikiguessproject.png)' }}
       >
         <div className="achievement-content">
           <h2>FullyHacks 2023 Winner</h2>
