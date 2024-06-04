@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-
 import './Projects.css';
 
 function Projects() {
@@ -29,10 +28,10 @@ function Projects() {
           <p>A full stack web application game where players must guess which article is not written by AI!</p>
           <div className="project-links">
             <a href="https://github.com/ADHFMZ7/WikiGuess" target="_blank" rel="noopener noreferrer">Code</a>
+            <a href="https://fullyhacks-test.onrender.com/" target="_blank" rel="noopener noreferrer">Site</a>
           </div>
         </div>
       </a>
-
       <a
         href="https://memorygame-d.vercel.app/"
         target="_blank"
@@ -40,7 +39,6 @@ function Projects() {
         className={`project ${hoveredProject === 'Memory Game' ? 'hovered' : ''}`}
         onMouseEnter={() => handleMouseEnter('Memory Game')}
         onMouseLeave={handleMouseLeave}
-        
         style={{ backgroundImage: 'url(static/images/memorygame.png)' }}
       >
         <div className="project-details">
@@ -48,10 +46,10 @@ function Projects() {
           <p>A full stack web game where the player must flip a full set of matching cards to win!</p>
           <div className="project-links">
             <a href="https://github.com/darrenxychen/memorygame" target="_blank" rel="noopener noreferrer">Code</a>
+            <a href="https://memorygame-d.vercel.app/" target="_blank" rel="noopener noreferrer">Site</a>
           </div>
         </div>
       </a>
-
       <a
         href="https://www.project3.com"
         target="_blank"
@@ -66,6 +64,7 @@ function Projects() {
           <p>A fullstack social media app in React Native focused on fashion and community!</p>
           <div className="project-links">
             <a href="https://github.com/jainharshul/OOTD" target="_blank" rel="noopener noreferrer">Code</a>
+            <a href="https://www.project3.com" target="_blank" rel="noopener noreferrer">Site</a>
           </div>
         </div>
       </a>
