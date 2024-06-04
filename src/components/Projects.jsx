@@ -64,7 +64,7 @@ function Projects() {
           <p>A fullstack social media app in React Native focused on fashion and community!</p>
           <div className="project-links">
             <a href="https://github.com/jainharshul/OOTD" target="_blank" rel="noopener noreferrer">Code</a>
-            <a href="https://www.project3.com" target="_blank" rel="noopener noreferrer">Site</a>
+            {/* <a href="https://www.project3.com" target="_blank" rel="noopener noreferrer">Site</a> */}
           </div>
         </div>
       </a>
