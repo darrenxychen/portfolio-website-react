@@ -6,7 +6,7 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Education from "./components/Education";
 import Achievements from "./components/Achievements";
-
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -43,9 +43,9 @@ function App() {
         <Contact />
       </section>
 
-      <footer className="footer">
-        <p>&copy; 2024 Darren Chen. All Rights Reserved.</p>
-      </footer>
+      <hr />
+
+      <Footer></Footer>
     </div>
   );
 }
