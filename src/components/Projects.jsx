@@ -14,10 +14,7 @@ function Projects() {
 
   return (
     <div className="projects-container">
-      <a
-        href="https://fullyhacks-test.onrender.com/"
-        target="_blank"
-        rel="noopener noreferrer"
+      <div
         className={`project ${hoveredProject === 'WikiGuess' ? 'hovered' : ''}`}
         onMouseEnter={() => handleMouseEnter('WikiGuess')}
         onMouseLeave={handleMouseLeave}
@@ -31,11 +28,9 @@ function Projects() {
             <a href="https://fullyhacks-test.onrender.com/" target="_blank" rel="noopener noreferrer">Site</a>
           </div>
         </div>
-      </a>
-      <a
-        href="https://memorygame-d.vercel.app/"
-        target="_blank"
-        rel="noopener noreferrer"
+      </div>
+
+      <div
         className={`project ${hoveredProject === 'Memory Game' ? 'hovered' : ''}`}
         onMouseEnter={() => handleMouseEnter('Memory Game')}
         onMouseLeave={handleMouseLeave}
@@ -49,11 +44,9 @@ function Projects() {
             <a href="https://memorygame-d.vercel.app/" target="_blank" rel="noopener noreferrer">Site</a>
           </div>
         </div>
-      </a>
-      <a
-        href="https://www.project3.com"
-        target="_blank"
-        rel="noopener noreferrer"
+      </div>
+
+      <div
         className={`project ${hoveredProject === 'OOTD' ? 'hovered' : ''}`}
         onMouseEnter={() => handleMouseEnter('OOTD')}
         onMouseLeave={handleMouseLeave}
@@ -64,10 +57,9 @@ function Projects() {
           <p>A fullstack social media app in React Native focused on fashion and community!</p>
           <div className="project-links">
             <a href="https://github.com/jainharshul/OOTD" target="_blank" rel="noopener noreferrer">Code</a>
-            {/* <a href="https://www.project3.com" target="_blank" rel="noopener noreferrer">Site</a> */}
           </div>
         </div>
-      </a>
+      </div>
     </div>
   );
 }

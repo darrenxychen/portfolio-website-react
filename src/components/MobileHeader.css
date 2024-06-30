@@ -1,18 +1,81 @@
 .mobile-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-  }
-  
-  .mobile-header nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .mobile-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-  }
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 10px;
+  background-color: #262254;
+  z-index: 1000;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 15px;
+}
+
+.hamburger-icon {
+  width: 30px;
+  height: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  z-index: 1003;
+}
+
+.hamburger-line {
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+  transition: all 0.3s linear;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #262254;
+  z-index: 1001;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 50px 0 0 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  padding: 15px 30px;
+}
+
+.sidebar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.resume-btn {
+  background-color: #f1c40f;
+  color: #262254;
+  padding: 10px 20px;
+  border-radius: 40px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.resume-btn:hover {
+  background-color: #d9b300;
+  color: white;
+}
