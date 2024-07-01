@@ -54,6 +54,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .education-container {
+    align-items: center;
+  }
+
   .education-item {
     padding: 15px;
   }
