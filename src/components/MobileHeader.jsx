@@ -39,11 +39,11 @@ const MobileHeader = () => {
       {isOpen && (
         <nav className="sidebar" ref={sidebarRef}>
           <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#achievements">Achievements</a></li>
-          <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#contact">Contact</a></li>
             <li>
               <a href="./Darren_Chen_Resume.pdf" className="resume-btn" download onClick={toggleMenu}>
                 Resume
