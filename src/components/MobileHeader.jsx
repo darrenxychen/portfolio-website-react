@@ -39,31 +39,11 @@ const MobileHeader = () => {
       {isOpen && (
         <nav className="sidebar" ref={sidebarRef}>
           <ul>
-            <li>
-              <Link to="about" smooth={true} offset={0} duration={500} onClick={toggleMenu}>
-                About
-              </Link>
-            </li>
-            <li>
-              <Link to="projects" smooth={true} offset={25} duration={500} onClick={toggleMenu}>
-                Projects
-              </Link>
-            </li>
-            <li>
-              <Link to="education" smooth={true} offset={25} duration={500} onClick={toggleMenu}>
-                Education
-              </Link>
-            </li>
-            <li>
-              <Link to="achievements" smooth={true} offset={25} duration={500} onClick={toggleMenu}>
-                Achievements
-              </Link>
-            </li>
-            <li>
-              <Link to="contact" smooth={true} offset={25} duration={500} onClick={toggleMenu}>
-                Contact
-              </Link>
-            </li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#contact">Contact</a></li>
             <li>
               <a href="./Darren_Chen_Resume.pdf" className="resume-btn" download onClick={toggleMenu}>
                 Resume
