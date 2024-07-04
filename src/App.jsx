@@ -27,7 +27,6 @@ function App() {
     <div className="App">
       {isMobile ? <MobileHeader /> : <Header />}
       <div className="container">
-        {/* <Header /> */}
         <section id="about">
           <About />
         </section>
@@ -38,11 +37,6 @@ function App() {
           <h2>Projects</h2>
           <Projects />
         </section>
-
-        {/* <section id="skills">
-          <h2>Skills</h2>
-          <Skills />
-        </section> */}
 
         <section id="education">
           <h2>Education</h2>
