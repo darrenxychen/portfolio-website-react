@@ -5,11 +5,13 @@ import './About.css';
 function About() {
   return (
     <div className="about-container">
+      <div className="about-image">
+        <img src="static/images/professionalpic.jpg" alt="Darren Chen" />
+      </div>
       <div className="about-content">
+        <h1 className="intro-headline">Hi, my name is Darren!</h1>
         <TypeAnimation
           sequence={[
-            'Hi, my name is Darren!',
-            2500,
             'I enjoy coding and algorithms',
             2500,
             'Check out some projects below!',
@@ -39,9 +41,6 @@ function About() {
           </a>
           <a href="./Darren_Chen_Resume.pdf" className="resume-link" download>Resume</a>
         </div>
-      </div>
-      <div className="about-image">
-        <img src="static/images/professionalpic.jpg" alt="Picture Filler" />
       </div>
     </div>
   );
