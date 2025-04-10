@@ -9,6 +9,15 @@ function Header() {
     setActive(to);
   };
 
+  const scrollSettings = {
+    spy: true,
+    smooth: "easeInOutQuart",
+    offset: -80,
+    duration: 500,
+    onSetActive: handleSetActive,
+    ignoreCancelEvents: true
+  };
+
   return (
     <nav>
       <a href="#" className={active === "#" ? "active" : ""}>
@@ -19,11 +28,7 @@ function Header() {
         <Link
           activeClass="active"
           to="about"
-          spy={true}
-          smooth={true}
-          offset={-50}
-          duration={500}
-          onSetActive={handleSetActive}
+          {...scrollSettings}
         >
           About
         </Link>
@@ -31,11 +36,7 @@ function Header() {
         <Link
           activeClass="active"
           to="projects"
-          spy={true}
-          smooth={true}
-          offset={-50}
-          duration={500}
-          onSetActive={handleSetActive}
+          {...scrollSettings}
         >
           Projects
         </Link>
@@ -43,11 +44,7 @@ function Header() {
         <Link
           activeClass="active"
           to="education"
-          spy={true}
-          smooth={true}
-          offset={-50}
-          duration={500}
-          onSetActive={handleSetActive}
+          {...scrollSettings}
         >
           Education
         </Link>
@@ -55,11 +52,7 @@ function Header() {
         <Link
           activeClass="active"
           to="achievements"
-          spy={true}
-          smooth={true}
-          offset={-50}
-          duration={400}
-          onSetActive={handleSetActive}
+          {...scrollSettings}
         >
           Achievements
         </Link>
@@ -67,11 +60,7 @@ function Header() {
         <Link
           activeClass="active"
           to="contact"
-          spy={true}
-          smooth={true}
-          offset={-50}
-          duration={300}
-          onSetActive={handleSetActive}
+          {...scrollSettings}
         >
           Contact
         </Link>
