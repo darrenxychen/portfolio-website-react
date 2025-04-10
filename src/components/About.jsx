@@ -15,13 +15,19 @@ function About() {
             'Check out some projects below!',
             2500,
           ]}
-          wrapper="h2"
+          wrapper="span"
           speed={50}
-          style={{ fontSize: '2em', display: 'inline-block', fontWeight: 'bolder' }}
+          style={{ 
+            fontSize: '2em', 
+            display: 'block', 
+            fontWeight: 'bolder',
+            textDecoration: 'none !important',
+            color: 'var(--primary-color)'
+          }}
           repeat={Infinity}
         />
         <p>
-          I am a junior majoring Computer Science at California State University of Fullerton with an interest in web development and algorithms.
+          I am a senior majoring Computer Science at California State University of Fullerton with an interest in web development and algorithms.
         </p>
         <p>I enjoy using ReactJS, ReactNative, Python, and C++!</p>
         <div className="social-links">

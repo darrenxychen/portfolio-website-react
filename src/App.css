@@ -1,31 +1,82 @@
+:root {
+  --primary-color: #3b82f6;
+  --secondary-color: #2563eb;
+  --accent-color: #60a5fa;
+  --text-color: #f3f4f6;
+  --background-color: #111827;
+  --section-bg: #1f2937;
+  --border-radius: 12px;
+  --box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.3), 0 2px 4px -2px rgb(0 0 0 / 0.3);
+}
+
 #root {
-  max-width: 1280px;
+  max-width: 1440px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  padding: 0;
+  text-align: left;
+}
+
+.App {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  min-height: 100vh;
 }
 
 .container {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  padding: 0 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 6rem 0;
+  scroll-margin-top: 5rem;
+}
+
+section:nth-child(even) {
+  background-color: var(--section-bg);
 }
 
 h2 {
-  color: #f1c40f;
-  font-size: 30px;
+  color: var(--primary-color);
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  position: relative;
+  display: inline-block;
+}
+
+h2::after {
+  content: '';
+  position: absolute;
+  bottom: -0.5rem;
+  left: 0;
+  width: 3rem;
+  height: 0.25rem;
+  background-color: var(--accent-color);
+  border-radius: var(--border-radius);
 }
 
 hr {
-  color: white;
-  width: 100%;
-  border-bottom: 5px;
-  margin-bottom: 30px;
-  margin-top: 50px;
+  border: none;
+  height: 1px;
+  background-color: #374151;
+  margin: 4rem 0;
 }
 
 @media (max-width: 768px) {
-  header {
-    display: none;
+  .container {
+    padding: 0 1rem;
+  }
+  
+  section {
+    padding: 4rem 0;
+  }
+  
+  h2 {
+    font-size: 2rem;
   }
 }
