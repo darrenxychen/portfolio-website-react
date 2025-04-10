@@ -3,6 +3,7 @@
   align-items: flex-start;
   justify-content: space-between;
   padding: 40px;
+  background-color: var(--background-color);
 }
 
 .contact-content {
@@ -25,30 +26,29 @@
   text-align: center;
 }
 
-.form-input {
-  padding: 12px 20px;
-  margin-bottom: 20px;
-  border: 2px solid #ffffff;
-  border-radius: 10px;
-  font-size: 16px;
-  width: 100%;
-}
-
+.form-input,
 .form-textarea {
   padding: 12px 20px;
   margin-bottom: 20px;
-  border: 2px solid #ffffff;
-  border-radius: 10px;
+  border: 2px solid var(--primary-color);
+  border-radius: var(--border-radius);
   font-size: 16px;
-  resize: vertical;
   width: 100%;
+  background-color: var(--section-bg);
+  color: var(--text-color);
+}
+
+.form-input::placeholder,
+.form-textarea::placeholder {
+  color: var(--text-color);
+  opacity: 0.7;
 }
 
 .submit-button {
-  background-color: #ec4176;
-  color: #fff;
+  background-color: var(--primary-color);
+  color: var(--text-color);
   border: none;
-  border-radius: 40px;
+  border-radius: var(--border-radius);
   padding: 12px 20px;
   font-size: 16px;
   cursor: pointer;
@@ -57,7 +57,7 @@
 }
 
 .submit-button:hover {
-  background-color: #eb004a;
+  background-color: var(--secondary-color);
 }
 
 .resume-download {
@@ -70,16 +70,16 @@
   margin-right: 10px;
   padding: 8px 16px;
   background-color: none;
-  color: #f1c40f;
+  color: var(--primary-color);
   text-decoration: none;
-  border: 2px solid #f1c40f;
-  border-radius: 40px;
+  border: 2px solid var(--primary-color);
+  border-radius: var(--border-radius);
   transition: 0.3s ease-in-out;
 }
 
 .resume-download a:hover {
-  background-color: #f1c40f;
-  color: white;
+  background-color: var(--primary-color);
+  color: var(--text-color);
 }
 
 @media screen and (max-width: 768px) {
