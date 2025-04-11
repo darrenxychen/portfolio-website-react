@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link } from "react-scroll";
-import { Link as RouterLink } from "react-router-dom";
 import './MobileHeader.css';
 
 const MobileHeader = () => {
@@ -46,9 +45,9 @@ const MobileHeader = () => {
             <li><a href="#achievements">Achievements</a></li>
             <li><a href="#contact">Contact</a></li>
             <li>
-              <RouterLink to="/resume" className="resume-btn" onClick={toggleMenu}>
+              <a href="./Darren_Chen_Resume.pdf" className="resume-btn" download onClick={toggleMenu}>
                 Resume
-              </RouterLink>
+              </a>
             </li>
           </ul>
         </nav>

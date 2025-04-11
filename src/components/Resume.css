@@ -6,38 +6,42 @@
   padding: 0;
   max-width: 100vw;
   overflow-x: hidden;
+  margin-top: 100px;
 }
 
 .resume-title {
-  margin-bottom: 0.5rem;
-  padding-top: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .resume-container {
   width: 100vw;
-  min-height: 85vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   padding: 0;
   margin: 0;
   background-color: transparent;
   max-width: 100vw;
+  margin-bottom: 30px;
 }
 
 .resume-pdf {
-  width: 80% !important;
+  width: 75% !important;
   max-width: 80% !important;
-  height: 85vh;
+  height: 1200px !important;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   background-color: transparent;
+  border: none;
 }
 
 .resume-actions {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
 }
 
 .download-btn {
@@ -56,7 +60,16 @@
 }
 
 @media (max-width: 768px) {
+  .resume-page {
+    margin-top: 80px;
+  }
+  
   .resume-container {
     padding: 5px;
   }
-} 
+  
+  .resume-pdf {
+    width: 95% !important;
+    max-width: 95% !important;
+  }
+}
