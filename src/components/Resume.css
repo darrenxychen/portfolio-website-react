@@ -1,0 +1,62 @@
+.resume-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  padding: 0;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+.resume-title {
+  margin-bottom: 0.5rem;
+  padding-top: 1rem;
+}
+
+.resume-container {
+  width: 100vw;
+  min-height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  max-width: 100vw;
+}
+
+.resume-pdf {
+  width: 80% !important;
+  max-width: 80% !important;
+  height: 85vh;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.resume-actions {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.download-btn {
+  background-color: var(--primary-color, #4a89dc);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.download-btn:hover {
+  background-color: var(--primary-color-dark, #3b6fc5);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .resume-container {
+    padding: 5px;
+  }
+} 

@@ -1,5 +1,6 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
+import { Link } from 'react-router-dom';
 import './About.css';
 
 function About() {
@@ -39,7 +40,7 @@ function About() {
           <a href="https://github.com/darrenxychen" target="_blank" rel="noopener noreferrer" className="github-link">
             GitHub
           </a>
-          <a href="./Darren_Chen_Resume.pdf" className="resume-link" download>Resume</a>
+          <Link to="/resume" className="resume-link">Resume</Link>
         </div>
       </div>
     </div>

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-scroll";
+import { Link as RouterLink } from "react-router-dom";
 import "./Header.css";
 
 function Header() {
@@ -20,7 +21,7 @@ function Header() {
 
   return (
     <nav>
-      <a href="#" className={active === "#" ? "active" : ""}>
+      <a href="/#" className={active === "#" ? "active" : ""}>
         <div className="logo">DC</div>
       </a>
 
@@ -65,7 +66,7 @@ function Header() {
           Contact
         </Link>
       </div>
-      <a href="./Darren_Chen_Resume.pdf" className="resume-btn" download>Resume</a>
+      <RouterLink to="/resume" className="resume-btn">Resume</RouterLink>
     </nav>
   );
 }
